@@ -1,0 +1,1635 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+*
+{
+   padding:0;
+   margin:0;
+   box-sizing:border-box;
+   font-family:'Raleway',sans-serif;
+}
+
+section.top
+{
+   position:relative;
+}
+
+@media screen and (min-width: 240px) {
+   html
+   {
+      scroll-behavior:smooth;
+   }
+
+   section.top
+   {
+      position:relative;
+      background:#3c3b3a;
+   }
+
+   section.top .container
+   {
+      max-width:1440px;
+      margin:auto;
+      padding:0 20px;
+   }
+
+   section.top .container .content
+   {
+      display:flex;
+      flex-wrap:wrap;
+   }
+
+   section.top .container .content .logo
+   {
+      flex-basis:100%;
+      text-align:center;
+   }
+
+   section.top .container .content .menu
+   {
+      text-align:center;
+      flex-basis:100%;
+      position:relative;
+   }
+
+   section.top .container .content .menu nav
+   {
+      position:relative;
+      display:block;
+   }
+
+   section.top .container .content .menu nav ul
+   {
+      list-style:none;
+   }
+
+   section.top .container .content .menu nav ul li
+   {
+      margin:0 0 20px;
+   }
+
+   section.top .container .content .menu nav ul li a
+   {
+      text-decoration:none;
+      font-size:16px;
+      color:#f2f2f2;
+   }
+
+   section.top .container .content .menu nav ul li:nth-child(2) a
+   {
+      font-weight:600;
+   }
+
+   section.top .container .content .logo img
+   {
+      width:30%;
+   }
+/* end menu and logo */
+  section.about-top {
+      position: relative;
+      padding: 20px 0;
+  }
+  section.about-top .container{
+    max-width:1440px;
+    margin:0 auto;
+    padding:0 20px;
+  }
+  section.about-top .container .content{
+        display: flex;
+        flex-wrap: wrap;
+  }
+  section.about-top .container .content .during{
+      flex-basis: 100%;
+  }
+  section.about-top .container .content .during h3{
+      font-size: 2em;
+      color: #3c3b3a;
+  }
+  section.about-top .container .content .during p{
+      color: #3c3b3a;
+      font-size: 1.2em;
+      margin: 20px 0;
+      font-weight: 300;
+  }
+  section.about-top .container .content .image{
+      flex-basis: 100%;
+  }
+  section.about-top .container .content .image .img img{
+      width: 100%;
+  }
+  /* end about-top */
+  section.about-content .imagebox{
+      position: relative;
+  }
+  section.about-content .imagebox .img:before{
+      content: "";
+      position: absolute;
+      top: 0;
+      left: 0;
+      width: 100%;
+      height: 100%;
+      background-color: #075542;
+      opacity: 0.6;
+  }
+  section.about-content .imagebox .img img{
+      width: 100%;
+      display: block;
+  }
+  section.about-content .imagebox .text{
+      position: absolute;
+      top: 50%;
+      left: 50%;
+      transform: translate(-50%,-50%);
+  }
+  section.about-content .imagebox .text h3{
+      font-size: 3em;
+      color: #f2f2f2;
+  }
+  section.about-content .container{
+      max-width: 1440px;
+      margin: 0 auto;
+      padding: 0 20px;
+  }
+  section.about-content .container .content{
+      display: grid;
+      grid-template-columns: repeat(auto-fit,minmax(250px,1fr));
+      grid-gap:20px;
+      padding: 20px 0;
+  }
+  section.about-content .container .content .box{
+      position: relative;
+  }
+  section.about-content .container .content .box h3{
+      display: block;
+      font-size: 2.5em;
+      color: #3c3b3a;
+      margin-bottom: 10px;
+  }
+  section.about-content .container .content .box p{
+      color: #3c3b3a;
+      font-size: 1em;
+      line-height: 32px;
+      font-weight: 400;
+  }
+  /* end  section.about-content  */
+  section.service{
+     position: relative;
+  }
+  section.service .imagebox{
+     position: relative;
+  }
+  section.service .imagebox .img img{
+     width: 100%;
+     display: block;
+  }
+  section.service .imagebox .img:before{
+     content: "";
+     position: absolute;
+     width: 100%;
+     height: 100%;
+     background: #075542;
+     top: 0;
+     left: 0;
+     opacity: 0.7;
+  }
+  section.service .imagebox .text{
+     position: absolute;
+     top: 50%;
+     left: 50%;
+     transform: translate(-50%,-50%);
+  }
+  section.service .imagebox .text h3{
+     font-size: 3em;
+     color: #f2f2f2;
+  }
+  section.service .container {
+     max-width: 1440px;
+     padding: 0 20px;
+     margin: 0 auto;
+  }
+  section.service .container .content{
+     display: flex;
+     flex-wrap: wrap;
+     padding: 20px 0;
+  }
+  section.service .container .content .image{
+     flex-basis: 100%;
+     position: relative;
+     width: 100%;
+     height: 100%;
+  }
+  section.service .container .content .image img{
+     position: absolute;
+     width: 100%;
+     height: 100%;
+     object-fit: cover;
+     top: 0;
+     left: 0;
+  }
+  section.service .container .content .text{
+   flex-basis: 100%;
+}
+section.service .container .content .text h3{
+   color: #3c3b3a;
+   font-size: 1.5em;
+   padding: 0px 0 10px 0;
+}
+section.service .container .content .text h4{
+   color: #26a682;
+   font-weight: 400;
+   font-size: 1.3em;
+}
+section.service .container .content .text p {
+   color: #3c3b3a;
+   font-weight: 400;
+   font-size: 0.9em;
+   line-height: 32px;
+}
+  /*    <!-- end section service --> */
+  /* section services two */
+  section.service2 {
+     position: relative;
+     background: rgba(0,0,0,0.05);
+  }
+  section.service2 .container {
+     max-width: 1440px;
+     margin: 0 auto;
+     padding: 0 20px;
+  }
+  section.service2 .container .content{
+   display: flex;
+   flex-wrap: wrap;
+   padding: 20px 0;
+}
+section.service2 .container .content .image{
+   flex-basis: 100%;
+   position: relative;
+   width: 100%;
+   height: 100%;
+}
+section.service2 .container .content .image img{
+   position: absolute;
+   width: 100%;
+   height: 100%;
+   object-fit: cover;
+   top: 0;
+   left: 0;
+}
+section.service2 .container .content .text{
+ flex-basis: 100%;
+}
+section.service2 .container .content .text h3{
+ color: #3c3b3a;
+ font-size: 1.5em;
+ padding: 0px 0 10px 0;
+}
+section.service2 .container .content .text h4{
+ color: #26a682;
+ font-weight: 400;
+ font-size: 1.3em;
+}
+section.service2 .container .content .text p {
+ color: #3c3b3a;
+ font-weight: 400;
+ font-size: 0.9em;
+ line-height: 32px;
+}
+  /* end services two */
+  /* section subscribe */
+section.subscribe{
+   position: relative;
+}
+section.subscribe .sub {
+   margin: 0 auto;
+   text-align: center;
+   background: #3c3b3a;
+   padding: 20px 0;
+}
+section.subscribe .sub .subscribe{
+   text-align: center;
+}
+section.subscribe .sub .subscribe p{
+   display: inline-block;
+   color: #f2f2f2;
+   font-weight: 600;
+   font-size: 1em;
+   padding: 0px 0 10px 0;
+}
+section.subscribe .sub .subscribe a{
+   display: inline-block;
+   text-decoration: none;
+   color: #f2f2f2;
+   background: #26a682;
+   padding: 5px 30px;
+   font-weight: 700;
+   border-radius: 20px;
+}
+section.subscribe .container {
+   max-width: 1440px;
+   margin: 0 auto;
+   padding: 0 20px;
+}
+section.subscribe .container .content {
+   display: flex;
+   flex-wrap: wrap;
+   padding: 20px 0;
+}
+section.subscribe .container .content .image {
+   position: relative;
+   width: 100%;
+   height: 100%;
+}
+section.subscribe .container .content .image img{
+   width: 100%;
+   position: absolute;
+   height: 100%;
+   object-fit: cover;
+   top: 0;
+   left: 0;
+}
+section.subscribe .container .content .text h3{
+   font-size: 1.5em;
+   color: #3c3b3a;
+   margin-bottom: 10px;
+
+}
+section.subscribe .container .content .text h4{
+   color: #26a682;
+   font-weight: 400;
+   font-size: 1.3em;
+}
+section.subscribe .container .content .text p{
+   color: #3c3b3a;
+   line-height: 32px;
+   font-weight: 300;
+}
+  /* end section subscribe */
+  /* section services two */
+  section.subscribe-two{
+     background: rgba(0,0,0,0.05);
+  }
+  section.subscribe-two .container {
+   max-width: 1440px;
+   margin: 0 auto;
+   padding: 0 20px;
+}
+section.subscribe-two .container .content {
+   display: flex;
+   flex-wrap: wrap;
+   padding: 20px 0;
+}
+section.subscribe-two .container .content .image {
+   position: relative;
+   width: 100%;
+   height: 100%;
+}
+section.subscribe-two .container .content .image img{
+   width: 100%;
+   position: absolute;
+   height: 100%;
+   object-fit: cover;
+   top: 0;
+   left: 0;
+}
+section.subscribe-two .container .content .text h3{
+   font-size: 1.5em;
+   color: #3c3b3a;
+   margin-bottom: 10px;
+
+}
+section.subscribe-two .container .content .text h4{
+   color: #26a682;
+   font-weight: 400;
+   font-size: 1.3em;
+}
+section.subscribe-two .container .content .text p{
+   color: #3c3b3a;
+   line-height: 32px;
+   font-weight: 300;
+}
+/* end section services two */
+/* section following */
+section.follwing{
+   position: relative;
+   padding: 20px 0;
+}
+section.follwing .container{
+   max-width: 1440px;
+   margin: 0 auto;
+   padding: 0 20px;
+}
+section.follwing .container .title{
+   text-align: center;
+   margin-bottom: 50px;
+}
+section.follwing .container .title h3{
+   font-size: 2.5em;
+   color: #3c3b3a;
+}
+section.follwing .container .image{
+   display: grid;
+   grid-template-columns: repeat(auto-fit,minmax(250px,1fr));
+   grid-gap:20px;
+}
+section.follwing .container .image img{
+   width: 75%;
+}
+section.follwing .container .image .box{
+   text-align: center;
+}
+/* end section following */
+section.footer
+{
+   position:relative;
+   background:#3c3b3a;
+   padding:20px 0;
+}
+
+section.footer .container
+{
+   max-width:1440px;
+   margin:0 auto;
+   padding:0 20px;
+}
+
+section.footer .container .content
+{
+   text-align:center;
+}
+
+section.footer .container .content p
+{
+   color:#f2f2f2;
+   font-size:24px;
+}
+
+section.footer .container .content ul
+{
+   display:flex;
+   justify-content:center;
+   align-items:center;
+   list-style:none;
+   padding:10px 0 0;
+}
+
+section.footer .container .content ul li
+{
+   margin:0 5px;
+}
+
+section.footer .container .button img
+{
+   width:40%;
+}
+
+section.footer .container .button
+{
+   position:absolute;
+   bottom:50%;
+   transform:translateY(50%);
+   right:5%;
+   text-align:center;
+   color:#f2f2f2;
+   font-size:12px;
+}
+
+section.footer .container .button a
+{
+   text-decoration:none;
+   color:#fff;
+}
+}
+
+@media screen and (min-width: 320px) {
+html
+{
+   scroll-behavior:smooth;
+}
+
+section.top
+{
+   position:relative;
+   background:#3c3b3a;
+}
+
+section.top .container
+{
+   max-width:1440px;
+   margin:auto;
+   padding:0 20px;
+}
+
+section.top .container .content
+{
+   display:flex;
+   flex-wrap:wrap;
+}
+
+section.top .container .content .logo
+{
+   flex-basis:100%;
+   text-align:center;
+}
+
+section.top .container .content .menu
+{
+   text-align:center;
+   flex-basis:100%;
+   position:relative;
+}
+
+section.top .container .content .menu nav
+{
+   position:relative;
+   display:block;
+}
+
+section.top .container .content .menu nav ul
+{
+   list-style:none;
+}
+
+section.top .container .content .menu nav ul li
+{
+   margin:0 0 20px;
+}
+
+section.top .container .content .menu nav ul li a
+{
+   text-decoration:none;
+   font-size:16px;
+   color:#f2f2f2;
+}
+
+section.top .container .content .menu nav ul li:nth-child(2) a
+{
+   font-weight:600;
+}
+
+section.top .container .content .logo img
+{
+   width:30%;
+}
+/* end logo and menu */
+section.about-top {
+   position: relative;
+   padding: 20px 0;
+}
+section.about-top .container{
+max-width:1440px;
+margin:0 auto;
+padding:0 20px;
+}
+section.about-top .container .content{
+   display: flex;
+   flex-wrap: wrap;
+}
+section.about-top .container .content .during{
+   flex-basis: 100%;
+}
+section.about-top .container .content .during h3{
+   font-size: 3em;
+   color: #3c3b3a;
+}
+section.about-top .container .content .during p{
+   color: #3c3b3a;
+   font-size: 1.2em;
+   margin: 20px 0;
+   font-weight: 400;
+}
+section.about-top .container .content .image{
+   flex-basis: 100%;
+}
+section.about-top .container .content .image .img img{
+   width: 100%;
+}
+/* end about top */
+
+section.footer
+{
+   position:relative;
+   background:#3c3b3a;
+   padding:20px 0;
+}
+
+section.footer .container
+{
+   max-width:1440px;
+   margin:0 auto;
+   padding:0 20px;
+}
+
+section.footer .container .content
+{
+   text-align:center;
+}
+
+section.footer .container .content p
+{
+   color:#f2f2f2;
+   font-size:24px;
+}
+
+section.footer .container .content ul
+{
+   display:flex;
+   justify-content:center;
+   align-items:center;
+   list-style:none;
+   padding:10px 0 0;
+}
+
+section.footer .container .content ul li
+{
+   margin:0 5px;
+}
+
+section.footer .container .button img
+{
+   width:40%;
+}
+
+section.footer .container .button
+{
+   position:absolute;
+   bottom:50%;
+   transform:translateY(50%);
+   right:5%;
+   text-align:center;
+   color:#f2f2f2;
+   font-size:12px;
+}
+
+section.footer .container .button a
+{
+   text-decoration:none;
+   color:#fff;
+}
+}
+/* 480 */
+@media screen and (min-width: 480px) {
+   html
+   {
+      scroll-behavior:smooth;
+   }
+   
+   section.top
+   {
+      position:relative;
+      background:#3c3b3a;
+   }
+   
+   section.top .container
+   {
+      max-width:1440px;
+      margin:auto;
+      padding:0 20px;
+   }
+   
+   section.top .container .content
+   {
+      display:flex;
+      flex-wrap:wrap;
+      align-items:center;
+   }
+   
+   section.top .container .content .logo
+   {
+      flex-basis:20%;
+      text-align:center;
+   }
+   
+   section.top .container .content .menu
+   {
+      text-align:center;
+      flex-basis:80%;
+      position:relative;
+   }
+   
+   section.top .container .content .menu nav
+   {
+      position:relative;
+      display:block;
+   }
+   
+   section.top .container .content .menu nav ul
+   {
+      list-style:none;
+      display:flex;
+      justify-content:flex-end;
+   }
+   
+   section.top .container .content .menu nav ul li
+   {
+      margin:0 20px;
+   }
+   
+   section.top .container .content .menu nav ul li a
+   {
+      text-decoration:none;
+      font-size:16px;
+      color:#f2f2f2;
+   }
+   
+   section.top .container .content .menu nav ul li:nth-child(2) a
+   {
+      font-weight:600;
+   }
+   
+   section.top .container .content .logo img
+   {
+      width:30%;
+   }
+   
+   /* end logo and menu */
+   section.about-top {
+      position: relative;
+      padding: 20px 0;
+   }
+   section.about-top .container{
+   max-width:1440px;
+   margin:0 auto;
+   padding:0 20px;
+   }
+   section.about-top .container .content{
+      display: flex;
+      flex-wrap: wrap;
+   }
+   section.about-top .container .content .during{
+      flex-basis: 100%;
+   }
+   section.about-top .container .content .during h3{
+      font-size: 3.5em;
+      color: #3c3b3a;
+   }
+   section.about-top .container .content .during p{
+      color: #3c3b3a;
+      font-size: 1.4em;
+      margin: 20px 0;
+      font-weight: 400;
+   }
+   section.about-top .container .content .image{
+      flex-basis: 100%;
+      text-align: center;
+   }
+   section.about-top .container .content .image .img img{
+      width: 75%;
+   }
+   /* end about top */
+   section.about-content .imagebox .img{
+      position: relative;
+      width: 100%;
+      height: 200px;
+      overflow: hidden;
+   }
+   section.about-content .imagebox .img img{
+      width: 100%;
+      display: block;
+      height: 100%;
+      object-fit: cover;
+   }
+   section.about-content .container .content{
+      grid-template-columns:repeat(auto-fit,minmax(400px,1fr));
+      grid-gap: 20px;
+   }
+   /* end section.about-content */
+   section.service .container .content{
+      justify-content: space-around;
+      max-height: 500px;
+      padding: 50px 0;
+   }
+   section.service .imagebox .img{
+      position: relative;
+      width: 100%;
+      height: 200px;
+      overflow: hidden;
+   }
+   section.service .imagebox .img img{
+      width: 100%;
+      display: block;
+      object-fit: cover;
+   }
+   section.service .container .content .image{
+      flex-basis: 40%;
+      position: relative;
+      min-height: 100%;
+      height: unset;
+   }
+   section.service .container .content .image img{
+      position: relative;
+   }
+   section.service .container .content .text{
+      flex-basis: 50%;
+   }
+   /* end section.service */
+   section.service2 .container .content{
+      justify-content: space-around;
+      flex-direction: row-reverse;
+      padding: 50px 0;
+   }
+   section.service2 .container .content .image{
+      flex-basis: 40%;
+   }
+   section.service2 .container .content .text{
+      flex-basis: 50%;
+   }
+   section.service2 .imagebox .img{
+      position: relative;
+      width: 100%;
+      height: 200px;
+      overflow: hidden;
+   }
+   section.service2 .imagebox .img img{
+      width: 100%;
+      display: block;
+      object-fit: cover;
+   }
+   section.service2 .container .content .image{
+      flex-basis: 40%;
+      position: relative;
+      min-height: 100%;
+      height: unset;
+   }
+   section.service2 .container .content .image img{
+      position: relative;
+   }
+   /* end section.service2 */
+   section.subscribe .container .content{
+      justify-content: space-around;
+      max-height: 500px;
+      padding: 50px 0;
+   }
+   section.subscribe .container .content .image {
+      flex-basis: 40%;
+      position: relative;
+      width: 100%;
+      min-height: 100%;
+      height: unset;
+      overflow: hidden;
+   }
+   section.subscribe .container .content .text{
+      flex-basis: 50%;
+   }
+   /* end section.subscribe */
+   section.subscribe-two .container .content{
+      justify-content: space-around;
+      max-height: 500px;
+      flex-direction: row-reverse;
+      padding: 50px 0;
+   }
+   section.subscribe-two .container .content .image {
+      flex-basis: 40%;
+      position: relative;
+      width: 100%;
+      min-height: 100%;
+      height: unset;
+      overflow: hidden;
+   }
+   section.subscribe-two .container .content .text{
+      flex-basis: 50%;
+   }
+   /* end section.subscribe two */
+   section.follwing {
+      padding: 50px 0;
+   }
+   section.follwing .container .title h3{
+      font-size: 4em;
+   }
+   section.follwing .container .image{
+      grid-template-columns: repeat(auto-fit,minmax(400px,1fr));
+   }
+   /* end section.follwing */
+   section.footer
+   {
+      position:relative;
+      background:#3c3b3a;
+      padding:20px 0;
+   }
+   
+   section.footer .container
+   {
+      max-width:1440px;
+      margin:0 auto;
+      padding:0 20px;
+   }
+   
+   section.footer .container .content
+   {
+      text-align:center;
+   }
+   
+   section.footer .container .content p
+   {
+      color:#f2f2f2;
+      font-size:24px;
+   }
+   
+   section.footer .container .content ul
+   {
+      display:flex;
+      justify-content:center;
+      align-items:center;
+      list-style:none;
+      padding:10px 0 0;
+   }
+   
+   section.footer .container .content ul li
+   {
+      margin:0 5px;
+   }
+   
+   section.footer .container .button img
+   {
+      width:40%;
+   }
+   
+   section.footer .container .button
+   {
+      position:absolute;
+      bottom:50%;
+      transform:translateY(50%);
+      right:5%;
+      text-align:center;
+      color:#f2f2f2;
+      font-size:12px;
+   }
+   
+   section.footer .container .button a
+   {
+      text-decoration:none;
+      color:#fff;
+   }
+   }
+/*  */
+
+@media screen and (min-width: 640px) {
+html
+{
+   scroll-behavior:smooth;
+}
+
+section.top
+{
+   position:relative;
+   background:#3c3b3a;
+}
+
+section.top .container
+{
+   max-width:1440px;
+   margin:auto;
+   padding:0 20px;
+}
+
+section.top .container .content
+{
+   display:flex;
+   flex-wrap:wrap;
+   align-items:center;
+}
+
+section.top .container .content .logo
+{
+   flex-basis:20%;
+   text-align:center;
+}
+
+section.top .container .content .menu
+{
+   text-align:center;
+   flex-basis:80%;
+   position:relative;
+}
+
+section.top .container .content .menu nav
+{
+   position:relative;
+   display:block;
+}
+
+section.top .container .content .menu nav ul
+{
+   list-style:none;
+   display:flex;
+   justify-content:flex-end;
+}
+
+section.top .container .content .menu nav ul li
+{
+   margin:0 20px;
+}
+
+section.top .container .content .menu nav ul li a
+{
+   text-decoration:none;
+   font-size:16px;
+   color:#f2f2f2;
+}
+
+section.top .container .content .menu nav ul li:nth-child(2) a
+{
+   font-weight:600;
+}
+
+section.top .container .content .logo img
+{
+   width:30%;
+}
+
+/* end logo and menu */
+section.about-top {
+   position: relative;
+   padding: 20px 0;
+}
+section.about-top .container{
+max-width:1440px;
+margin:0 auto;
+padding:0 20px;
+}
+section.about-top .container .content{
+   display: flex;
+   flex-wrap: wrap;
+}
+section.about-top .container .content .during{
+   flex-basis: 100%;
+}
+section.about-top .container .content .during h3{
+   font-size: 3.5em;
+   color: #3c3b3a;
+}
+section.about-top .container .content .during p{
+   color: #3c3b3a;
+   font-size: 1.4em;
+   margin: 20px 0;
+   font-weight: 400;
+}
+section.about-top .container .content .image{
+   flex-basis: 100%;
+   text-align: center;
+}
+section.about-top .container .content .image .img img{
+   width: 75%;
+}
+/* end about top */
+section.about-content .imagebox .img{
+   position: relative;
+   width: 100%;
+   height: 200px;
+   overflow: hidden;
+}
+section.about-content .imagebox .img img{
+   width: 100%;
+   display: block;
+   height: 100%;
+   object-fit: cover;
+}
+section.about-content .container .content{
+   grid-template-columns:repeat(auto-fit,minmax(400px,1fr));
+   grid-gap: 20px;
+}
+/* end section.about-content */
+section.service .container .content{
+   justify-content: space-around;
+   max-height: 500px;
+   padding: 50px 0;
+}
+section.service .imagebox .img{
+   position: relative;
+   width: 100%;
+   height: 200px;
+   overflow: hidden;
+}
+section.service .imagebox .img img{
+   width: 100%;
+   display: block;
+   object-fit: cover;
+}
+section.service .container .content .image{
+   flex-basis: 40%;
+   position: relative;
+   min-height: 100%;
+   height: unset;
+}
+section.service .container .content .image img{
+   position: relative;
+}
+section.service .container .content .text{
+   flex-basis: 50%;
+}
+/* end section.service */
+section.service2 .container .content{
+   justify-content: space-around;
+   flex-direction: row-reverse;
+   padding: 50px 0;
+}
+section.service2 .container .content .image{
+   flex-basis: 40%;
+}
+section.service2 .container .content .text{
+   flex-basis: 50%;
+}
+section.service2 .imagebox .img{
+   position: relative;
+   width: 100%;
+   height: 200px;
+   overflow: hidden;
+}
+section.service2 .imagebox .img img{
+   width: 100%;
+   display: block;
+   object-fit: cover;
+}
+section.service2 .container .content .image{
+   flex-basis: 40%;
+   position: relative;
+   min-height: 100%;
+   height: unset;
+}
+section.service2 .container .content .image img{
+   position: relative;
+}
+/* end section.service2 */
+section.subscribe .container .content{
+   justify-content: space-around;
+   max-height: 500px;
+   padding: 50px 0;
+}
+section.subscribe .container .content .image {
+   flex-basis: 40%;
+   position: relative;
+   width: 100%;
+   min-height: 100%;
+   height: unset;
+   overflow: hidden;
+}
+section.subscribe .container .content .text{
+   flex-basis: 50%;
+}
+/* end section.subscribe */
+section.subscribe-two .container .content{
+   justify-content: space-around;
+   max-height: 500px;
+   flex-direction: row-reverse;
+   padding: 50px 0;
+}
+section.subscribe-two .container .content .image {
+   flex-basis: 40%;
+   position: relative;
+   width: 100%;
+   min-height: 100%;
+   height: unset;
+   overflow: hidden;
+}
+section.subscribe-two .container .content .text{
+   flex-basis: 50%;
+}
+/* end section.subscribe two */
+section.follwing {
+   padding: 50px 0;
+}
+section.follwing .container .title h3{
+   font-size: 4em;
+}
+section.follwing .container .image{
+   grid-template-columns: repeat(auto-fit,minmax(400px,1fr));
+}
+/* end section.follwing */
+section.footer
+{
+   position:relative;
+   background:#3c3b3a;
+   padding:20px 0;
+}
+
+section.footer .container
+{
+   max-width:1440px;
+   margin:0 auto;
+   padding:0 20px;
+}
+
+section.footer .container .content
+{
+   text-align:center;
+}
+
+section.footer .container .content p
+{
+   color:#f2f2f2;
+   font-size:24px;
+}
+
+section.footer .container .content ul
+{
+   display:flex;
+   justify-content:center;
+   align-items:center;
+   list-style:none;
+   padding:10px 0 0;
+}
+
+section.footer .container .content ul li
+{
+   margin:0 5px;
+}
+
+section.footer .container .button img
+{
+   width:40%;
+}
+
+section.footer .container .button
+{
+   position:absolute;
+   bottom:50%;
+   transform:translateY(50%);
+   right:5%;
+   text-align:center;
+   color:#f2f2f2;
+   font-size:12px;
+}
+
+section.footer .container .button a
+{
+   text-decoration:none;
+   color:#fff;
+}
+}
+
+@media screen and (min-width: 1024px) {
+html
+{
+   scroll-behavior:smooth;
+}
+
+section.top
+{
+   position:relative;
+   background:#3c3b3a;
+}
+
+section.top .container
+{
+   max-width:1440px;
+   margin:auto;
+   padding:0 20px;
+}
+
+section.top .container .content
+{
+   display:flex;
+   flex-wrap:wrap;
+   align-items:center;
+}
+
+section.top .container .content .logo
+{
+   flex-basis:20%;
+   text-align:center;
+}
+
+section.top .container .content .menu
+{
+   text-align:center;
+   flex-basis:80%;
+   position:relative;
+}
+
+section.top .container .content .menu nav
+{
+   position:relative;
+   display:block;
+}
+
+section.top .container .content .menu nav ul
+{
+   list-style:none;
+   display:flex;
+   justify-content:flex-end;
+}
+
+section.top .container .content .menu nav ul li
+{
+   margin:0 20px;
+}
+
+section.top .container .content .menu nav ul li a
+{
+   text-decoration:none;
+   font-size:24px;
+   color:#f2f2f2;
+}
+
+section.top .container .content .menu nav ul li:nth-child(2) a
+{
+   font-weight:600;
+}
+
+section.top .container .content .logo img
+{
+   width:30%;
+}
+/* end logo and menu */
+section.about-top {
+   position: relative;
+   padding: 80px 0px;
+}
+section.about-top .container{
+max-width:1440px;
+margin:0 auto;
+padding:50px 20px;
+}
+section.about-top .container .content{
+   display: flex;
+   flex-wrap: wrap;
+}
+section.about-top .container .content .during{
+   flex-basis: 50%;
+}
+section.about-top .container .content .during h3{
+   font-size: 3em;
+   color: #3c3b3a;
+}
+section.about-top .container .content .during p{
+   color: #3c3b3a;
+   font-size: 1.2em;
+   margin: 20px 0;
+   font-weight: 400;
+}
+section.about-top .container .content .image{
+   flex-basis: 50%;
+}
+section.about-top .container .content .image .img img{
+   width: 100%;
+}
+/* end about top */
+section.about-content .imagebox .img{
+   position: relative;
+   width: 100%;
+   height: 200px;
+   overflow: hidden;
+}
+section.about-content .imagebox .img img{
+   width: 100%;
+   display: block;
+   height: 100%;
+   object-fit: cover;
+}
+section.about-content .container .content{
+   grid-template-columns:repeat(auto-fit,minmax(250px,1fr));
+   grid-gap: 50px;
+   padding: 200px 0;
+}
+/* end section.about-content */
+section.service .container .content .text p{
+   font-size: 1.2em;
+}
+section.service .container .content .text h3{
+   font-size: 2.5em;
+}
+section.service .container .content .text h4{
+   font-size: 1.8em;
+}
+section.service .container .content{
+   justify-content: space-around;
+   padding: 50px 0;
+}
+section.service .imagebox .img{
+   position: relative;
+   width: 100%;
+   height: 200px;
+   overflow: hidden;
+}
+section.service .imagebox .img img{
+   width: 100%;
+   display: block;
+   object-fit: cover;
+   height: 100%;
+}
+section.service .container .content .image{
+   flex-basis: 50%;
+   position: relative;
+   min-height: unset;
+   height: 300px;
+   padding: 0 20px;
+}
+section.service .container .content .image img{
+   position: relative;
+}
+section.service .container .content .text{
+   flex-basis: 50%;
+}
+/* end section.service */
+section.service2 .container .content .text h3{
+   font-size: 2.5em;
+}
+section.service2 .container .content .text h4{
+   font-size: 1.8em;
+}
+section.service2 .container .content .text p{
+   font-size: 1.2em;
+}
+section.service2 .container .content{
+   justify-content: space-around;
+   flex-direction: row-reverse;
+   padding: 50px 0;
+}
+section.service2 .container .content .image{
+   flex-basis: 40%;
+}
+section.service2 .container .content .text{
+   flex-basis: 50%;
+}
+section.service2 .imagebox .img{
+   position: relative;
+   width: 100%;
+   height: 200px;
+   overflow: hidden;
+}
+section.service2 .imagebox .img img{
+   width: 100%;
+   display: block;
+   object-fit: cover;
+}
+section.subscribe .container .content .image img{
+   position: relative;
+}
+section.subscribe .sub .subscribe p{
+   font-size: 2em;
+}
+section.subscribe .sub .subscribe a{
+   font-size: 2em;
+}
+section.subscribe .container .content .text h3{
+   font-size: 2.5em;
+}
+section.subscribe .container .content .text h4{
+   font-size: 1.8em;
+}
+section.subscribe .container .content .text p{
+   font-size: 1.2em;
+}
+section.service2 .container .content .image{
+   flex-basis: 50%;
+   position: relative;
+   min-height: unset;
+   height: 300px;
+   padding: 0 20px;
+}
+section.service2 .container .content .image img{
+   position: relative;
+}
+/* end section.service2 */
+section.subscribe .container .content{
+   justify-content: space-around;
+   max-height: 500px;
+   padding: 50px 0;
+}
+
+section.subscribe .container .content .image {
+   flex-basis: 50%;
+   position: relative;
+   width: 100%;
+   min-height: unset;
+   height: 300px;
+   overflow: hidden;
+   padding: 0 20px;
+}
+section.subscribe .container .content .text{
+   flex-basis: 50%;
+}
+/* end section.subscribe */
+section.subscribe-two .container .content{
+   justify-content: space-around;
+   max-height: 500px;
+   flex-direction: row-reverse;
+   padding: 50px 0;
+}
+section.subscribe-two .container .content .image {
+   flex-basis: 50%;
+   position: relative;
+   width: 100%;
+   min-height: unset;
+   height: 300px;
+   padding: 0 20px;
+   overflow: hidden;
+}
+section.subscribe-two .container .content .text h3{
+   font-size: 2.5em;
+}
+section.subscribe-two .container .content .text h4{
+   font-size: 1.8em;
+}
+section.subscribe-two .container .content .text p{
+   font-size: 1.2em;
+}
+section.subscribe-two .container .content .image img{
+   position: relative;
+}
+section.subscribe-two .container .content .text{
+   flex-basis: 50%;
+}
+/* end section.subscribe two */
+section.follwing {
+   padding: 50px 0;
+}
+section.follwing .container .title h3{
+   font-size: 4em;
+}
+section.follwing .container .image{
+   grid-template-columns: repeat(auto-fit,minmax(200px,1fr));
+}
+/* end section.follwing */
+
+section.footer
+{
+   position:relative;
+   background:#3c3b3a;
+   padding:20px 0;
+}
+
+section.footer .container
+{
+   max-width:1440px;
+   margin:0 auto;
+   padding:0 20px;
+}
+
+section.footer .container .content
+{
+   text-align:center;
+}
+
+section.footer .container .content p
+{
+   color:#f2f2f2;
+   font-size:24px;
+}
+
+section.footer .container .content ul
+{
+   display:flex;
+   justify-content:center;
+   align-items:center;
+   list-style:none;
+   padding:10px 0 0;
+}
+
+section.footer .container .content ul li
+{
+   margin:0 5px;
+}
+
+section.footer .container .button img
+{
+   width:40%;
+}
+
+section.footer .container .button
+{
+   position:absolute;
+   bottom:50%;
+   transform:translateY(50%);
+   right:5%;
+   text-align:center;
+   color:#f2f2f2;
+   font-size:18px;
+}
+
+section.footer .container .button a
+{
+   text-decoration:none;
+   color:#fff;
+}
+}
+@media screen and (min-width: 1366px) {
+   section.follwing .container .image{
+      grid-template-columns: repeat(auto-fit,minmax(300px,1fr));
+   }
+   section.about-top .container .content .during h3{
+      font-size: 4em;
+   }
+   section.about-top .container .content .during p{
+      font-size: 24px;
+   }
+   section.about-content .container .content{
+      grid-template-columns: repeat(auto-fit,minmax(400px,1fr));
+   }
+   section.about-top .container{
+      padding: 0;
+   }
+   section.about-content .container{
+      padding: 0;
+   }
+   section.service .container{
+      padding: 0;
+   }
+   section.service2 .container{
+      padding: 0;
+   }
+   section.follwing .container{
+      padding: 0;
+   }
+   section.footer .container{
+      padding: 0;
+   }
+}
